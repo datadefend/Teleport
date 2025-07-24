@@ -1,0 +1,12 @@
+kind: autoupdate_config
+metadata:
+  name: autoupdate-config
+spec:
+  agents:
+    mode: enabled
+    strategy: halt-on-error
+    schedules:
+      regular:
+        - name: default
+          days: [ "Mon", "Tue", "Wed", "Thu" ]
+          start_hour: 16  # UTC
