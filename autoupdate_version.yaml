@@ -1,0 +1,7 @@
+kind: autoupdate_version
+metadata:
+  name: autoupdate-version
+spec:
+  agents:
+    start_version: 17.5.0
+    target_version: 17.5.6
